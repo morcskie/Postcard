@@ -14,6 +14,8 @@
 		3D19E8331BF89EB60007F65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19E8311BF89EB60007F65C /* LaunchScreen.storyboard */; };
 		3D19E83E1BF89EB60007F65C /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19E83D1BF89EB60007F65C /* PostcardTests.swift */; };
 		3D19E8491BF89EB60007F65C /* PostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19E8481BF89EB60007F65C /* PostcardUITests.swift */; };
+		3D19E8581BF8A0BB0007F65C /* sagradaFamilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D19E8571BF8A0BB0007F65C /* sagradaFamilia.jpg */; };
+		3D19E85A1BF8A78B0007F65C /* einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D19E8591BF8A78B0007F65C /* einstein.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D19E8441BF89EB60007F65C /* PostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D19E8481BF89EB60007F65C /* PostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardUITests.swift; sourceTree = "<group>"; };
 		3D19E84A1BF89EB60007F65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D19E8571BF8A0BB0007F65C /* sagradaFamilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sagradaFamilia.jpg; sourceTree = "<group>"; };
+		3D19E8591BF8A78B0007F65C /* einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				3D19E8271BF89EB60007F65C /* Postcard */,
+				3D19E8561BF8A0530007F65C /* Supporting Files */,
 				3D19E83C1BF89EB60007F65C /* PostcardTests */,
 				3D19E8471BF89EB60007F65C /* PostcardUITests */,
 				3D19E8261BF89EB60007F65C /* Products */,
@@ -123,6 +128,15 @@
 				3D19E84A1BF89EB60007F65C /* Info.plist */,
 			);
 			path = PostcardUITests;
+			sourceTree = "<group>";
+		};
+		3D19E8561BF8A0530007F65C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D19E8571BF8A0BB0007F65C /* sagradaFamilia.jpg */,
+				3D19E8591BF8A78B0007F65C /* einstein.jpg */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D19E85A1BF8A78B0007F65C /* einstein.jpg in Resources */,
 				3D19E8331BF89EB60007F65C /* LaunchScreen.storyboard in Resources */,
 				3D19E8301BF89EB60007F65C /* Assets.xcassets in Resources */,
 				3D19E82E1BF89EB60007F65C /* Main.storyboard in Resources */,
+				3D19E8581BF8A0BB0007F65C /* sagradaFamilia.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
